@@ -734,10 +734,10 @@ int main(int argc, char const *argv[])
 					if( score > p.scoremax ) { p.scoremax=score; init_score(p); gotoxy(10,125); printf(" la condition est ok");}  /*on verifie si le score est superieur au max et on remplace si besoin*/
 					break;/* on doit faire un menu qui boucle pour demander s'il veut sortir ou recommencer*/
 			case 2:
-					//Nouveau_joueur();
+					Nouveau_joueur();
 					/* cherher un moyen d'appeler la fonction gameplay directement ici*/
 					cls_zone();
-					gotoxy(9,20);   printf(" D�sol� vous ne pouvez ajouter de joueur dans cette version ");
+					//gotoxy(9,20);   printf(" D�sol� vous ne pouvez ajouter de joueur dans cette version ");
 					break;
 			case 3:
 					Meilleur_score();
