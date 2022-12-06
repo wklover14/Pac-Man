@@ -1,4 +1,4 @@
-Write-Output "Hello World, Nous allons installer PAC-MAN sur votre machine"
+Write-Output "Hi Dear player, Nous allons installer PAC-MAN sur votre machine"
 gcc --version
 if ( $LASTEXITCODE  -eq 0   ) {
      <# On lance l'application  #>
